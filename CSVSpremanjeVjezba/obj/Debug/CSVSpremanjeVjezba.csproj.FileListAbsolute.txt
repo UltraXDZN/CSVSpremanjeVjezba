@@ -1,0 +1,10 @@
+D:\Zadace\CSVSpremanjeVjezba\CSVSpremanjeVjezba\bin\Debug\CSVSpremanjeVjezba.exe.config
+D:\Zadace\CSVSpremanjeVjezba\CSVSpremanjeVjezba\bin\Debug\CSVSpremanjeVjezba.exe
+D:\Zadace\CSVSpremanjeVjezba\CSVSpremanjeVjezba\bin\Debug\CSVSpremanjeVjezba.pdb
+D:\Zadace\CSVSpremanjeVjezba\CSVSpremanjeVjezba\obj\Debug\CSVSpremanjeVjezba.csprojAssemblyReference.cache
+D:\Zadace\CSVSpremanjeVjezba\CSVSpremanjeVjezba\obj\Debug\CSVSpremanjeVjezba.Form1.resources
+D:\Zadace\CSVSpremanjeVjezba\CSVSpremanjeVjezba\obj\Debug\CSVSpremanjeVjezba.Properties.Resources.resources
+D:\Zadace\CSVSpremanjeVjezba\CSVSpremanjeVjezba\obj\Debug\CSVSpremanjeVjezba.csproj.GenerateResource.cache
+D:\Zadace\CSVSpremanjeVjezba\CSVSpremanjeVjezba\obj\Debug\CSVSpremanjeVjezba.csproj.CoreCompileInputs.cache
+D:\Zadace\CSVSpremanjeVjezba\CSVSpremanjeVjezba\obj\Debug\CSVSpremanjeVjezba.exe
+D:\Zadace\CSVSpremanjeVjezba\CSVSpremanjeVjezba\obj\Debug\CSVSpremanjeVjezba.pdb
