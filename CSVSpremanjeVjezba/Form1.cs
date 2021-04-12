@@ -20,17 +20,25 @@ namespace CSVSpremanjeVjezba
 
         private void saveButton_Click(object sender, EventArgs e)
         {
-            string lokacija = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDoc‌​uments), "testNiOP");
-
-            string saved_data = imeTextBox.Text + "," + prezimeTextBox.Text + "," + godRodTextBox.Text + "," + emailTextBox.Text + ",";
-
-            if (!File.Exists(lokacija))
+            if (emailTextBox.Text.Contains("@") && int.TryParse(godRodTextBox.Text, out int numValue))
             {
-                Directory.CreateDirectory(lokacija);
+
+                string lokacija = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDoc‌​uments), "testNiOP");
+
+                string saved_data = imeTextBox.Text + "," + prezimeTextBox.Text + "," + godRodTextBox.Text + "," + emailTextBox.Text + ",";
+
+                if (!File.Exists(lokacija))
+                {
+                    Directory.CreateDirectory(lokacija);
+                }
+                StreamWriter sw = new StreamWriter(lokacija + "/PrezimeImeSystemNiOP.csv");
+                sw.Write(saved_data);
+                sw.Close();
             }
-            StreamWriter sw = new StreamWriter(lokacija + "/PrezimeImeSystemNiOP.csv");
-            sw.Write(saved_data);
-            sw.Close();
+            else
+            {
+                MessageBox.Show("Krivi unos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void LoadButton_Click(object sender, EventArgs e)
